@@ -27,5 +27,6 @@ class App < Sinatra::Base
       "params[:number1].to_i + params[number2]"
     else
       "params[:number1].to_i - params[number2]"
+    end 
   end
 end
