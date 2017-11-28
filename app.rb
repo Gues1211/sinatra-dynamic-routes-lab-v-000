@@ -21,12 +21,11 @@ class App < Sinatra::Base
   end
 
   get '/:operation/:number1/:number2' do
-    binding.pry
 
     if params[:operatin] = "add"
       "params[:number1].to_i + params[number2]"
     else
       "params[:number1].to_i - params[number2]"
-    end 
+    end
   end
 end
